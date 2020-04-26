@@ -1,0 +1,53 @@
+<!-- views/pages/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+
+
+<%- include ("../partials/head") %>
+
+    <body>
+        <img src="img/th(1).jfij" alt="">
+        <%- include ("../partials/header") %>
+            <%- include ("../partials/text") %>
+                <%- include ("../partials/search") %>
+                    <main>
+                       
+                    </main>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Name</th>
+                                <th scope="col">Population</th>
+                                <th scope="col">Confirmed Cases</th>
+                                <th scope="col">Deaths</th>
+                                <th scope="col">Recovered</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <%locations.forEach(function(entry) {%>
+                                <tr>
+                                    <td>
+                                        <%=entry.country%>
+                                    </td>
+                                    <td>
+                                        <%=entry.country_population%>
+                                    </td>
+                                    <td>
+                                        <%=entry.latest.confirmed%>
+                                    </td>
+                                    <td>
+                                        <%=entry.latest.deaths%>
+                                    </td>
+                                    <td>
+                                        <%=entry.latest.recovered%>
+                                    </td>
+
+                                </tr>
+                                <%});%>
+                        </tbody>
+                    </table>
+                    <%- include ("../partials/footer") %>
+                        <%- include ("../partials/js") %>
+    </body>
+
+</html>

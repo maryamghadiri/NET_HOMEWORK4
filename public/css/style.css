@@ -1,0 +1,138 @@
+.navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  
+  .navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  .navbar {
+   
+    background-color: #333;
+   
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    border-bottom-left-radius: 21px;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar li
+  {
+      margin-right: 6px;
+  }
+  .nav_link  a{
+    text-decoration: none;
+      
+  }
+  #text
+  {
+     background-color: #5f5f5f;
+     
+     
+     
+  }
+  #updated
+  {
+      text-align: right;
+      color: #f1f1f1;
+      margin-right: 79px;
+  }
+  #header_butt
+  {
+      float: right;
+
+  }
+
+  #text h2{
+      color: #f2f2f2;
+  }
+
+
+ 
+  .drpodown{
+      position: relative;
+      display: inline-block;
+      
+  }
+  .button{
+      margin-top: -72px;
+      margin-right: 8px;;
+      padding: 10px,40px;
+      font-size: 20px;
+      float:right;
+      background: #4CAF50;
+      border-color:#4CAF50;
+  }
+  #drop-content  {
+    
+      z-index: 1;
+      float:right;
+      margin-top: -43px;
+      margin-left: -12px;
+      color: #f1f1f1
+
+  };
+  #drop-content a {
+    display: block; 
+    font-size: 20px;
+    text-decoration: none;
+     margin-left: 20px;
+    padding: 10px,36px;
+    margin-top: 2px;
+
+  };
+
+
+
+
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+ table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: -16px;
+  }
+  
+ table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  table tr:hover {background-color: #ddd;}
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+  footer
+  {
+    background-color: #333;
+
+
+  }
+  footer p{
+      color: white;
+      border-top:5px ;
+      
+  }
